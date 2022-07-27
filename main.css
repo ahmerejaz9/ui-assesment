@@ -1,0 +1,156 @@
+/* @font-face{
+  font-family: "fa-solid-900";
+  src: url("./webfonts/fa-solid-900.ttf") format("truetype");
+} */
+
+.header {
+
+  display: block;
+  text-align: center;
+  background-image: url(./images/header-background.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  align-items: top;
+  height: 500px;
+  padding: 0%;
+  margin-top: -10px;
+  width: 100%;
+}
+
+
+
+/* navigation bar  */
+/* .topnav {
+  overflow: hidden;
+  font-size: 14px;
+  border: none;
+
+}
+
+
+navigation-bar anchors style
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none
+}
+
+navigation-bar anchors hover style
+.topnav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.nav-link{
+  overflow: hidden;
+  font-size: 14px;
+  border: none;
+}
+
+.nav-link a{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none
+}
+*/
+
+/* navigation bar  */
+.navbar-brand{
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-attachment: fixed;
+}
+.nav-link{
+  overflow: hidden;
+  font-size: 16px;
+  border: none;
+  text-decoration: underline;
+}
+
+.navbar-brand:hover{
+  cursor: pointer;
+  float: left;
+  width: 100px;
+  height: 100px;
+  transition: width 1.5s, height 1.5s;
+}
+
+.navbar-collapse{
+  justify-content: right;
+  font-size: medium;
+}
+
+
+.navbar-logo{
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin: 0%;
+  cursor: pointer;
+}
+
+/* Image in header  */
+.section1-img-1{
+  /* background-color: rgb(11, 36, 28); */
+  /* position:fixed; */
+  display: block;
+  width: 300px;
+  height: 300px;
+  /* margin-top: 10%; */
+}
+
+/* trusted by images col  */
+.col-sm{
+  justify-content: space-between;
+  align-items: center;
+}
+/* trusted by text  */
+.trusted{
+  text-align: center;
+  font-size: large;
+  padding: 50px;
+}
+
+/* Standup text  */
+.text-left{
+  position: relative;
+  align-items: center;
+  display: block;
+  margin-top: 10%;
+  max-width: 400px;
+  /* padding-left: 220px; */
+}
+.startup-text-1{
+  color: #4dd0e1;
+}
+.startup-text-2{
+  color:  #37474f ;
+}
+
+/* Discover button  */
+.main-btn{
+  min-width: 150px;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 15em;
+  background-color:  #4dd0e1;
+  color: white;
+  cursor: pointer;
+  font:bold;
+}
+.main-btn:hover{
+  background-color:  #32a6b5;
+
+}
