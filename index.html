@@ -1,109 +1,837 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
 
-    <title>UI Assignment@Ahmer</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
 
-<body>
-  <!--    Header For Page -->
-  <div class="header">
+  <title>UI Assignment@Ahmer</title>
+</head>
 
-    <nav class="navbar navbar-expand-lg navbar-light  ">
-      <a class="navbar-brand" href="#">
-        <img src="/images/logo.svg" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
+<body id="body">
 
-      <div class="collapse navbar-collapse hide " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto" >
-          <li class="nav-item active">
-            <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#" >Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Request</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About
+  <a href="#body" class="back-to-top page-scroll" style="display: inline;">Back to Top</a>
+
+      <div class="bg-img">
+
+        <!--    Header For Page -->
+        <div class="container" id="header">
+          <nav class="navbar navbar-expand-lg  navbar-light ">
+            <a class="navbar-brand" href="#">
+              <img src="/images/logo.svg" alt="">
             </a>
-            <div class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action 1</a>
-              <a class="dropdown-item" href="#">Action 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#prices">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#request">Request</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                  <div class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#about">Action 1</a>
+                    <a class="dropdown-item" href="#about">Action 2</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/" target="_blank"><img
+                      class="navbar-logo" src="./images/fb-logo.png"></a>
+                  </li>
+                <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/" target="_blank"><img
+                      class="navbar-logo" src="./images/twitter-logo.png"></a></li>
+
+              </ul>
+
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/" target="_blank"><img class="navbar-logo" src="./images/fb-logo.png"></a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/" target="_blank"><img class="navbar-logo" src="./images/twitter-logo.png"></a></li>
+          </nav>
 
-        </ul>
+          <div class="header-img-container">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="text-left">
+                    <h1 class="startup-text-2"><span class="startup-text-1">StartUp Landing</span> Page Template Free</h1>
+                    <p>Use Evolo free landing page template to grow your business startup and grows lead for the offered services.</p>
+                    <button type="button" class="main-btn">DISCOVER</button>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-header-img">
+                    <img class="section1-img-1" src="/images/header-teamwork.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      </div>
-    </nav>
+          </div>
 
-    <div class="container" >
-        <div class="text-left" >
-         <!-- <h1 >StartUp Landing</h1> -->
-         <h1 class="startup-text-2"  ><span class="startup-text-1" >StartUp Landing</span> Page Template Free</h1>
-         <button type="button"class="main-btn">DISCOVER</button>
+        </div> <!---- container tag ends here---->
+      </div><!---- img tag ends here---->
+    <!-- --------   Header End Here --------------- -->
+
+
+    <!------------- Trusted By & its imgs ------------->
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+        <div class="trusted-container" >
+          <div class="trusted">Trusted By</div>
+            </div>
+          <!-- </div> -->
         </div>
-    </div>
 
-    <div class="container-fluid" >
-       <!-- <img class="section1-img-1" src="/images/header-teamwork.svg"  alt=""> -->
-    </div>
+        <div class="trusted-container" >
+          <!-- <div class="container-fluid" > -->
+            <div class="row tls1">
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-1.png">
+                  </div>
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-2.png">
+                  </div>
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-3.png">
+                  </div>
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-4.png">
+                  </div>
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-5.png">
+                  </div>
+                  <div class="col-sm">
+                    <img src="./images/customer-logo-6.png">
+                  </div>
+              <!-- </div> -->
+            </div>
+          <!-- </div> -->
+        </div>
+
+      </div>  <!-- panel-body END-->
+    </div>  <!-- panel-default END-->
+     <!------------- Header text & its END ------------->
+
+     <div class="padding-div"></div>
+    <!------------- Business Growth Services & its boxes ------------->
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="container" id="services">
+          <div class="test-cont">
+            <div class="row">
+              <div class="test-cont">
+                <div class="col-lg-7">
+                  <div class="main-text-div"> <!-- this css class also used in pricing-->
+                    <h2 class="startup-text-2">Business Growth Services</h2>
+                    <div class="para">
+                      <p>We serve small and medium sized companies in tech related industries with high quality growth services which are presented below</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </div>
+          </div> <!-- test-cont END-->
+
+          <!--  Services Cards -->
+          <div class="container ">
+            <!-- Next Row -->
+            <div class="row row-card" >
+              <!-- <div class="sls1"> -->
+                <!--  First card below -->
+                <div class="col-sm-1" >
+                    <div class="card card-h" >
+                      <img class="card-img" src="./images/services-icon-1.svg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Market Analysis</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                </div>
+
+                  <!--  Second card below -->
+                  <div class="col-sm-1">
+                    <div class="card card-h" >
+                      <img class="card-img" src="./images/services-icon-2.svg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Opportunity Scan</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--  Third card below -->
+                  <div class="col-sm-1">
+                    <div class="card card-h" >
+                      <img class="card-img" src="./images/services-icon-3.svg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Action Plan </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+            </div> <!--row end-->
+          </div>
+
+        </div>  <!-- container END-->
+      </div>  <!-- panel-body END-->
+    </div>  <!-- panel-default END-->
+
+    <!------------- END OF Business Growth Services & its boxes ------------->
 
 
+    <!------------- Details & its image ------------->
+    <div class="container">
+    <div class="panel panel-default details-panel" id="details">
+      <div class="panel-body">
+        <div class="details-div-1">
+          <div class="header-img-container" id="services" >
+            <div class="row details-row">
+                <div class="col-lg-5" >
+                  <div class="text">
+                    <h2 class="startup-text-2">Design And Plan Your Business Growth Step</h2>
+                    <p>Some Text some text some text  some text  some text  some text  some text  some text  some text  some text  some text  </p>
+                    <button type="button" class="main-btn">LIGHTBOX</button>
+                  </div>
+                </div>
+                  <div class="col-lg-6" >
+                      <img  src="images/details-1-office-worker.svg" alt="">
+                    </div>
+              </div>
+          </div>
+
+        </div>  <!-- container END-->
+      </div>  <!-- panel-body END-->
+    </div>  <!-- panel-default END-->
   </div>
-      <!-- --------   Header End Here --------------- -->
+    <!------------- End of Details & its image ------------->
 
-      <div class="container-fluid">
-        <div class="trusted">Trusted By</div>
-        <div class="row">
-          <div class="col-sm">
-            <img src="./images/customer-logo-1.png">
+    <div class="padding-div"></div>
+    <div class="padding-div"></div>
+    <!------------- Optomisation & its image ------------->
+
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="details-div-1">
+          <div class="header-img-container">
+            <div class="row dcls1" >
+
+                <div class="col-lg-6"  >
+                    <img class="section1-img-1 "  src="/images/details-2-office-team-work.svg" alt="">
+                </div>
+
+                <div class="col-lg-5" >
+                  <div class="text">
+                    <h2 class="startup-text-2">Search For Optomization Wherever Is Possible</h2>
+                    <!-- vertically aligning icons -->
+                        <div  >
+                          <div><i class="fas fa-check"></i><span>Some Text some text some text</span></div>
+                          <div><i class="fas fa-check"></i><span>Some Text some text some text</span></div>
+                          <div><i class="fas fa-check"></i><span>Some Text some text some text</span></div>
+                        </div>
+                    <button type="button" class="main-btn">LIGHTBOX</button>
+                  </div>
+                </div>
+
+            </div>
           </div>
-          <div class="col-sm">
-            <img src="./images/customer-logo-2.png">
-          </div>
-          <div class="col-sm">
-            <img src="./images/customer-logo-3.png">
-          </div>
-          <div class="col-sm">
-            <img src="./images/customer-logo-4.png">
-          </div>
-          <div class="col-sm">
-            <img src="./images/customer-logo-5.png">
-          </div>
-          <div class="col-sm">
-            <img src="./images/customer-logo-6.png">
+        </div>  <!-- container END-->
+      </div>  <!-- panel-body END-->
+    </div>  <!-- panel-default END-->
+
+
+  <!------------- END of Optomisation & its image ------------->
+
+  <div class="padding-div"></div>
+
+  <!------------- Pricing & its boxes ------------->
+
+  <div class="container" id="prices">
+    <div class="test-cont">
+      <div class="row">
+        <div class="test-cont">
+          <div class="col-lg-7">
+            <div class="main-text-div">
+                <h2 class="startup-text-2">Multiple Pricing Options</h2>
+               <div class="para" >
+                  <p>We have prepared pricing plans for all budgets so you can get started right away. They're great for small companies and large organizations</p>
+               </div>
+             </div>
           </div>
         </div>
       </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+            <!-- Card-->
+            <div class="card pcls1">
+                <div class="card-body">
+                    <div class="card-title">STARTER</div>
+                    <div class="card-subtitle">Just to see what can be achieved</div>
+                    <hr class="cell-divide-hr">
+                    <div class="price">
+                        <span class="currency">$</span><span class="value">199</span>
+                        <div class="frequency">monthly</div>
+                    </div>
+                    <hr class="cell-divide-hr">
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Improve Your Email Marketing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User And Admin Rights Control</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-times"></i><div class="media-body">List Building And Cleaning</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-times"></i><div class="media-body">Collected Data Management</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-times"></i><div class="media-body">More Planning And Evaluation</div>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper">
+                      <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                  </div>
+                </div>
+            </div> <!-- end of card -->
+            <!-- end of card -->
+
+            <!-- Card-->
+            <div class="card pcls1">
+                <div class="card-body">
+                    <div class="card-title">MEDIUM</div>
+                    <div class="card-subtitle">Very appropriate for the short term</div>
+                    <hr class="cell-divide-hr">
+                    <div class="price">
+                        <span class="currency">$</span><span class="value">299</span>
+                        <div class="frequency">monthly</div>
+                    </div>
+                    <hr class="cell-divide-hr">
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Improve Your Email Marketing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User And Admin Rights Control</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List Building And Cleaning</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Collected Data Management</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-times"></i><div class="media-body">More Planning And Evaluation</div>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper">
+                      <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                  </div>
+                </div>
+            </div> <!-- end of card -->
+            <!-- end of card -->
+
+            <!-- Card-->
+            <div class="card pcls1">
+                <div class="label">
+                    <p class="best-value">Best Value</p>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">COMPLETE</div>
+                    <div class="card-subtitle">Must have for large companies</div>
+                    <hr class="cell-divide-hr">
+                    <div class="price">
+                        <span class="currency">$</span><span class="value">399</span>
+                        <div class="frequency">monthly</div>
+                    </div>
+                    <hr class="cell-divide-hr">
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Improve Your Email Marketing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User And Admin Rights Control</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List Building And Cleaning</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Collected Data Management</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">More Planning And Evaluation</div>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                    </div>
+                </div>
+            </div> <!-- end of card -->
+            <!-- end of card -->
+
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+
+
+  </div>  <!-- container END-->
+
+  <!------------- End Here Pricing & its boxes ------------->
+    <div class="padding-div"></div>
+
+
+    <!------------- Request & its boxes ------------->
+
+        <!-- Request -->
+        <div id="request" class="form-1">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="text-container">
+                          <h2>Fill The Following Form To Request A Meeting</h2>
+                          <p>Evolo is one of the easiest and feature packed marketing automation apps in the market. Discover what it can do for your business organization right away.</p>
+                          <ul class="list-unstyled li-space-lg">
+                              <li class="media">
+                                  <i class="fas fa-check"></i>
+                                  <div class="media-body"><strong class="blue">Automate your marketing</strong> activities and get results today</div>
+                              </li>
+                              <li class="media">
+                                  <i class="fas fa-check"></i>
+                                  <div class="media-body"><strong class="blue">Interact with all your</strong> targeted customers at a personal level</div>
+                              </li>
+                              <li class="media">
+                                  <i class="fas fa-check"></i>
+                                  <div class="media-body"><strong class="blue">Convince them to buy</strong> your company's awesome products</div>
+                              </li>
+                              <li class="media">
+                                  <i class="fas fa-check"></i>
+                                  <div class="media-body"><strong class="blue">Save precious time</strong> and invest it where you need it the most</div>
+                              </li>
+                          </ul>
+                      </div> <!-- end of text-container -->
+                  </div> <!-- end of col -->
+                  <div class="col-lg-6">
+
+                      <!-- Request Form -->
+                      <div class="form-container">
+                          <form id="requestForm" action="">
+                              <div class="form-group">
+                                  <input type="text" class="form-control-input"  placeholder="Full name" required>
+                              </div>
+                              <div class="form-group">
+                                  <input type="email" class="form-control-input"  placeholder="Email" required>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control-input" placeholder="Phone" required>
+                              </div>
+                              <div class="form-group">
+                                  <select class="form-control-select" required>
+                                      <option class="select-option" value="" disabled selected>Interested in...</option>
+                                      <option class="select-option" >Option-1</option>
+                                      <option class="select-option" >Option-2</option>
+                                      <option class="select-option">Option-3</option>
+                                  </select>
+                              </div>
+                              <div class="form-group checkbox">
+                                  <input type="checkbox" required>I agree with Evolo's stated <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="form-control-submit-button">REQUEST</button>
+                              </div>
+                          </form>
+                      </div>
+
+
+                  </div> <!-- end of col -->
+              </div> <!-- end of row -->
+          </div> <!-- end of container -->
+      </div> <!-- end of form-1 -->
+
+
+    <!------------- End Request & its boxes ------------->
+
+
+    <div class="padding-div"></div>
+
+    <!------------- Video & its boxes ------------->
+
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="video-h2">Check Out The Video</h2>
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+          <div class="row">
+              <div class="col-lg-12 video-cls1">
+
+                  <!-- Video Preview -->
+                  <div class="video-img-cont">
+                              <img class="img-video" src="./images/video-frame.svg" alt="alternative">
+                              <span class="play-button">
+                                  <!-- <i class="fas fa-pause-circle psize"></i> -->
+                              </span>
+
+                  </div> <!-- end of image-container -->
+                  <!-- end of video preview -->
+
+                  <p class="p-cls-1">This video will show you a case study for one of our <strong>Major Customers</strong> and will help you understand why your startup needs Evolo in this highly competitive market</p>
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+      </div> <!-- end of container -->
+
+
+    <!------------- End of Video & its boxes ------------->
+
+    <div class="padding-div"></div>
 
 
 
-        <!-- JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!------------- Testimonial & its boxes ------------->
+
+    <div class="slider-2">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="image-container">
+                      <img class="img-fluid" src="./images/testimonials-2-men-talking.svg" alt="alternative">
+                  </div>
+              </div>
+              <div class="col-lg-6 test-cls1">
+                  <h2 class="test-h2">Testimonials</h2>
+
+                  <!-- Card  -->
+                  <div class="slider-container">
+                      <div class="swiper-container card-slider">
+                          <div class="swiper-wrapper">
+
+                              <!-- Slide -->
+                              <div class="swiper-slide">
+                                  <div class="card test-card">
+                                      <img class="card-image test-card-image" src="./images/testimonial-3.svg" alt="alternative">
+                                      <div class="card-body">
+                                        <p class="testimonial-text">Love their services and was so amazed with the support and results that I purchased Evolo for two years in a row. They are awesome.</p>
+                                        <p class="testimonial-author">Roy Smith - Marketer</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Arrows -->
+                          <div class="button-next"><i class="fas fa-chevron-right fa-3x"></i></div>
+                          <div class="button-prev"><i class="fas fa-chevron-left fa-3x"></i></div>
+
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!------------- End of Testimonial & its boxes ------------->
+
+
+
+      <!------------- About & its boxes ------------->
+        <!-- About -->
+        <div id="about" class="basic-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h2 class="abt-h2">About The Team</h2>
+                      <p class="p-heading p-large">Meat our team of specialized marketers and business developers which will help you research new products and launch them in new emerging markets</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-12 abt-cls1">
+
+                      <!-- Team Member -->
+                      <div class="team-member">
+                          <div class="abt-image-wrapper">
+                              <img src="images/team-member-1.svg" alt="img">
+                          </div>
+                          <p class="p-large"><strong>Lacy Whitelong</strong></p>
+                          <p class="job-title">Business Developer</p>
+                          <span class="social-icons">
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x facebook"></i>
+                                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x twitter"></i>
+                                      <i class="fab fa-twitter fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                          </span>
+                      </div>
+                      <!-- end team member -->
+
+                      <!-- Team Member -->
+                      <div class="team-member">
+                          <div class="abt-image-wrapper">
+                              <img src="images/team-member-2.svg" alt="img">
+                          </div>
+                          <p class="p-large"><strong>Chris Brown</strong></p>
+                          <p class="job-title">Online Marketer</p>
+                          <span class="social-icons">
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x facebook"></i>
+                                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x twitter"></i>
+                                      <i class="fab fa-twitter fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                          </span>
+                      </div>
+                      <!-- end team member -->
+
+                      <!-- Team Member -->
+                      <div class="team-member">
+                          <div class="abt-image-wrapper">
+                              <img  src="images/team-member-3.svg" alt="img">
+                          </div>
+                          <p class="p-large"><strong>Sheila Zimerman</strong></p>
+                          <p class="job-title">Software Engineer</p>
+                          <span class="social-icons">
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x facebook"></i>
+                                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x twitter"></i>
+                                      <i class="fab fa-twitter fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                          </span>
+                      </div>
+                      <!-- end team member -->
+
+                      <!-- Team Member -->
+                      <div class="team-member">
+                          <div class="abt-image-wrapper">
+                              <img  src="./images/team-member-4.svg" alt="alternative">
+                          </div>
+                          <p class="p-large"><strong>Mary Villalonga</strong></p>
+                          <p class="job-title">Product Manager</p>
+                          <span class="social-icons">
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x facebook"></i>
+                                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                              <span class="fa-stack">
+                                  <a href="#">
+                                      <i class="fas fa-circle fa-stack-2x twitter"></i>
+                                      <i class="fab fa-twitter fa-stack-1x"></i>
+                                  </a>
+                              </span>
+                          </span>
+                      </div>
+                      <!-- end team member -->
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!------------- End of About & its boxes ------------->
+
+      <!------------- Contact & its boxes ------------->
+
+        <div id="contact" class="form-2 contact-cls1">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 contact-cls2">
+                      <h2 class="c-h2">Contact Information</h2>
+                      <ul class="list-unstyled li-space-lg c-des">
+                          <li class="address">Don't hesitate to give us a call or send us a contact form message</li>
+                          <li><i class="fas fa-map-marker-alt"></i>22 Innovative Area, San Francisco, CA 94043, US</li>
+                          <li><i class="fas fa-phone"></i ><a class=c-pho href="#">+81 720 2212</a></li>
+                          <li><i class="fas fa-envelope"></i><a class="c-pho" href="#">office@evolo.com</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6 c-img">
+                      <div class="map-responsive">
+                        <img class="c-map-img" src="./images/California_map.jpg">
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+
+                      <!-- Contact Form -->
+                      <form id="contactForm" data-toggle="validator" data-focus="false">
+                          <div class="form-group">
+                              <input type="text" class="form-control-input" id="cname" required>
+                              <label class="label-control" for="cname">Name</label>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control-input" id="cemail" required>
+                              <label class="label-control" for="cemail">Email</label>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                          <div class="form-group">
+                              <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                              <label class="label-control" for="cmessage">Your message</label>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                          <div class="form-group checkbox">
+                              <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree with Evolo's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                          <div class="form-group">
+                              <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                          </div>
+                          <div class="form-message">
+                              <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                          </div>
+                      </form>
+                      <!-- end of contact form -->
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!------------- End of Contact & its boxes ------------->
+
+          <!-- Footer -->
+          <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-footer">
+                        <div class="footer-col">
+                            <h4>About Evolo</h4>
+                            <p class="foot-p">We're passionate about offering some of the best business growth services for startups</p>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-4">
+                        <div class="footer-col middle">
+                            <h4 class="foot-h4">Important Links</h4>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Our business partners <a class="turquoise" href="#your-link">startupguide.com</a></div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Read our <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-4">
+                        <div class="footer-col last">
+                            <h4>Social Media</h4>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">©Copyright @ Devsinc.</p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright -->
+
+
+        <!-- end of copyright -->
+
+
+
+
+  <!-- JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
